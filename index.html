@@ -3,12 +3,70 @@
 
 <head>
 	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>DevMtin</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans:400,600,700" rel="stylesheet">
 </head>
 
 <body>
+	<header>
 
-  
+		<div class="head_search">
+			<img src="Images/Icons/Search.svg" alt="" id="magnify">
+		</div>
+
+		<p class="head_name">DevMountain</p>
+
+		<div class="sandwich_menu">
+			<img src="Images/Icons/Ham.svg" alt="" id="sandwich">
+		</div>
+	</header>
+
+	<hr>
+
+	<div class="main_body">
+		<div class="left_side">
+			<p>Welcome to <a id="devmountain" href="#">DevMountain</a> Social
+				<br>Add Some Info So Friends Can Find You
+			</p>
+			<input type="text" name="Full Name" value="" placeholder="Full Name" id="name_box">
+			<br>
+			<input type="text" name="Tagline" value="" placeholder="Tag Line" id="tagline_box">
+			<br>
+			<input type="text" name="Profile Image Url" value="" placeholder="Profile Image Url" id="image_box">
+			<br>
+			<textarea name="name" rows="11" cols="80" placeholder="Bio" id="bio_box"></textarea>
+			<button type="button" name="button" id="saveChangesButton">Save Changes</button>
+		</div>
+
+		<div class="right_side">
+
+			<canvas id="c" width="550" height="700"></canvas>
+
+		</div>
+
+	</div>
+
+	<hr id="footerline">
+
+	<footer>
+		<div class="viewFriends">View Friends</div>
+		<div class="findFriends">Find Friends</div>
+		<div class="updateProfile">Update Profile</div>
+	</footer>
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/control.js"></script>
+	<script type="text/javascript" src="js/service.js"></script>
+	<script type="text/javascript" src="js/javascript.js"></script>
+	<!-- <script type="text/javascript" src="js/triangle2.js"></script> -->
+
+
+
 </body>
+
 </html>

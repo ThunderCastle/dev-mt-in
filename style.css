@@ -1,0 +1,161 @@
+font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    margin: 20px;
+}
+
+hr {}
+
+input {
+    font-family: 'Lora', serif;
+    color: #D8D8D8;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Lora', serif;
+    color: #272727;
+    font: 20px;
+    text-align: center;
+}
+
+.head_search {
+    width: 21px;
+    height: 21px;
+}
+
+#magnify {
+    height: auto;
+    width: 100%;
+}
+
+.head_name {
+    font-family: 'Lora', serif;
+    font-size: 21px;
+    color: #2727227;
+    display: block;
+    margin: auto;
+}
+
+.sandwich_menu {
+    height: 21px;
+    position: absolute;
+    right: 20px;
+}
+
+#sandwich {
+    height: auto;
+    width: 100%;
+}
+
+.main_body {
+    margin-left: 20px;
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#devmountain {
+    color: #74FDF2;
+    font-family: 'Lora', serif;
+}
+
+.left_side {
+    width: 50%;
+}
+
+#name_box {
+    width: 75%;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+#tagline_box {
+    width: 75%;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+#image_box {
+    width: 75%;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+#bio_box {
+    width: 75%;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-family: 'Lora', serif;
+    color: #D8D8D8;
+    font-size: 18px;
+    border-color: #B6B6B6;
+}
+
+#saveChangesButton {
+    width: 75%;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    background-color: #00FFE9;
+    border: none;
+    font-family: 'Lora', serif;
+    color: #9A9A9A;
+    font-size: 18px;
+}
+
+.right_side {
+  width: 49%;
+}
+.c{
+  background-color: #ECECEC;
+  opacity: 10%;
+}
+
+
+#footerline {
+    border: 0;
+    height: 2px;
+    background: #D7D7D7;
+}
+
+footer {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.viewFriends {
+    font-family: 'Open Sans:700', sans-serif;
+    color: #979797;
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 60px;
+}
+
+.findFriends {
+    font-family: 'Open Sans:700', sans-serif;
+    color: #979797;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: block;
+    margin: auto;
+}
+
+.updateProfile {
+    font-family: 'Open Sans:700', sans-serif;
+    color: #979797;
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    right: 60px;
+}
